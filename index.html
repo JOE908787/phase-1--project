@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Public Transport Booking </title>
+  <title>Public Transport Booking</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,29 +14,48 @@
     <h2>Book a Ride</h2>
     <form id="booking-form">
       <label for="from">From: </label>
-      <input type="text" id="from" placeholder="From">
+      <input type="text" id="from" placeholder="Enter departure location" required>
       <label for="to">To: </label>
-      <input type="text" id="to" placeholder="To">
+      <input type="text" id="to" placeholder="Enter destination" required>
       <button type="submit">Search Routes</button>
     </form>
   </div>
-
-  <div id="routes-list"></div>
 
   <div id="ratings-section">
     <h2>Rate Your Driver</h2>
     <form id="rating-form">
       <label for="rating">Rate your ride (1-5): </label>
-      <input type="number" id="rating" min="1" max="5" placeholder="Rate">
+      <input type="number" id="rating" min="1" max="5" placeholder="Rate" required>
+
       <button type="submit">Submit Rating</button>
     </form>
   </div>
 
   <div id="incentive-section">
     <h2>Invite a Friend</h2>
-    <button onclick="inviteFriend()">Invite</button>
+    <button>Invite</button>
+    <p>Invite friends to earn rewards and discounts!</p>
   </div>
 
+  <div id="contact-section">
+    <h3>Contact Us</h3>
+    <p>If you need help, reach out to us at <a href="http://127.0.0.1:5500/?">support@transport.com</a></p>
+  </div>
+
+  <div id="faq-section">
+    <h3>Frequently Asked Questions</h3>
+    <ul>
+      <li><strong>How do I book a ride?</strong> Simply enter the departure and destination locations and click "Search Routes".</li>
+      <li><strong>Can I change my route?</strong> Routes cannot be changed once booked, but you can cancel and rebook.</li>
+      <li><strong>How can I rate my driver?</strong> After your ride, you will have an option to rate your driver on a scale from 1 to 5.</li>
+    </ul>
+  </div>
+
+  <div id="terms-section">
+    <h3>Terms and Conditions</h3>
+    <p>By using our services, you agree to our <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>.</p>
+  </div>
+  
   <script src="script.js"></script>
 </body>
 </html>

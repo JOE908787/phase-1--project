@@ -1,31 +1,30 @@
 {
-    "routes": [
-      {
-        "id": 1,
-        "from": "Nairobi",
-        "to": "Mombasa",
-        "departure_time": "08:00",
-        "price": "1200",
-        "transport_type": "Bus"
-      },
-      {
-        "id": 2,
-        "from": "Nairobi",
-        "to": "Kisumu",
-        "departure_time": "15:00",
-        "price": "1000",
-        "transport_type": "Train"
-      }
-    ],
-    "bookings": [],
-    "ratings": [],
-    "drivers": [
-      {
-        "id": 1,
-        "name": "John Doe",
-        "available": true
-      }
-    ],
-    "incentives": []
-  }
-  
+  "routes": [
+    {
+      "id": 1,
+      "from": "Nairobi",
+      "to": "Mombasa",
+      "departure_time": "08:00",
+      "price": "1200",
+      "transport_type": "Bus"
+    },
+    {
+      "id": 2,
+      "from": "Nairobi",
+      "to": "Kisumu",
+      "departure_time": "15:00",
+      "price": "1000",
+      "transport_type": "Train"
+    }
+  ],
+  "bookings": [],
+  "ratings": [],
+  "drivers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "available": true
+    }
+  ],
+  "incentives": []
+}
